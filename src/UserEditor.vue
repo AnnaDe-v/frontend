@@ -1,6 +1,7 @@
 <template>
   <v-card-text>
     <v-text-field v-model="editedUser.firstname" label="Имя"></v-text-field>
+    <v-text-field v-model="editedUser.lastname" label="Фамилия"></v-text-field>
     <v-text-field v-model="editedUser.gender" label="Пол"></v-text-field>
     <v-text-field v-model="editedUser.email" label="Email"></v-text-field>
     <v-btn @click="saveChanges" :disabled="!isUserChanged">Сохранить</v-btn>

@@ -2,6 +2,7 @@
     <v-card class="mx-auto my-8" elevation="16" max-width="344">
       <v-card-title>{{ user.firstname }} {{ user.lastname }}</v-card-title>
       <v-card-text>Возраст: {{ calculateAge(user.birthday) }}</v-card-text>
+      <v-card-text>Дата рождения: {{ user.birthday }}</v-card-text>
       <v-card-text>Пол: {{ user.gender }}</v-card-text>
       <v-card-text>Email: {{ user.email }}</v-card-text>
       <v-card-actions>
